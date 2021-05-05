@@ -9,9 +9,21 @@ export default function Header() {
       src='http://pngimg.com/uploads/amazon/amazon_PNG11.png' />
 
       <div className='header_search'>
-        <input className='header_searchInput' type='text'>
+        <input className='header_searchInput' type='text' />
 
-        </input>
+        <div className='header_nav'>
+          <div className='header_option'>
+
+          </div>
+
+          <div className='header_option'>
+
+          </div>
+
+          <div className='header_option'>
+
+          </div>
+        </div>
       </div>
     </div>
   )
