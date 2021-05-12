@@ -27,6 +27,10 @@
   color: #111;
 }
 
+.product_rating {
+  display: flex;
+}
+
 .product_info {
   height: 100px;
   margin-bottom: 15px;

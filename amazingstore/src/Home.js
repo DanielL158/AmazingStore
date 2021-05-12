@@ -12,15 +12,23 @@ export default function Home () {
           alt=''
         />
         <div className="home_row">
+          <Product
+          title='The lean startup'
+          price={29.99}
+          image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
+          rating={5}
+          />
           <Product />
         </div>
 
         <div className="home_row">
-
+          <Product />
+          <Product />
+          <Product />
         </div>
 
         <div className="home_row">
-
+          <Product />
         </div>
       </div>
     </div>
