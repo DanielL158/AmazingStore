@@ -13,17 +13,35 @@ export default function Home () {
         />
         <div className="home_row">
           <Product
-          title='The lean startup'
+          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
           price={29.99}
-          image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
           rating={5}
+          image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
           />
-          <Product />
+          <Product
+          id='49538094'
+          title='Kenwood Mix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl'
+          price={239.99}
+          rating={4}
+          image='https://images-na.ssl-images-amazon.com/images/I/81tCWi0BusL._AC_SL1500_.jpg'
+          />
         </div>
 
         <div className="home_row">
-          <Product />
-          <Product />
+          <Product
+          id='49538094'
+          title='All-new Echo Buds (2nd Gen) | Wireless earbuds with active noise cancellation and Alexa | Black'
+          price={99.99}
+          rating={5}
+          image='https://images-na.ssl-images-amazon.com/images/I/61zfyWSgVBL._AC_SL1000_.jpg'
+          />
+          <Product
+          id='49538094'
+          title='KINGSO Fire Pit, 22 Fire Pits Outdoor Wood Burning Steel BBQ Grill Firepit Bowl with Mesh Spark Screen Cover Log Grate Wood Fire Poker for Camping Picnic Bonfire Patio Backyard Garden Beaches Park'
+          price={49.99}
+          rating={5}
+          image='https://images-na.ssl-images-amazon.com/images/I/61J%2B463izhL._AC_SL1200_.jpg'
+          />
           <Product />
         </div>
 
