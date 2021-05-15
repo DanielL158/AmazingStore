@@ -9,13 +9,14 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path='/'>
+          <Route path="/checkout">
             <Header />
-            <Home />
+            <h1>Check Out</h1>
           </Route>
 
-          <Route path='checkout'>
+          <Route path="/">
             <Header />
+            <Home />
           </Route>
         </Switch>
       </div>
