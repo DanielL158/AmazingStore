@@ -30,14 +30,14 @@ export default function Home () {
         <div className="home_row">
           <Product
           id='49538094'
-          title='All-new Echo Buds (2nd Gen) | Wireless earbuds with active noise cancellation and Alexa | Black'
+          title='All-new Echo Buds (2nd Gen)'
           price={99.99}
           rating={5}
           image='https://images-na.ssl-images-amazon.com/images/I/61zfyWSgVBL._AC_SL1000_.jpg'
           />
           <Product
           id='49538094'
-          title='KINGSO Fire Pit, 22 Fire Pits Outdoor Wood Burning Steel BBQ Grill Firepit Bowl with Mesh Spark Screen Cover Log Grate Wood Fire Poker for Camping Picnic Bonfire Patio Backyard Garden Beaches Park'
+          title='KINGSO Fire Pit, 22 Fire Pits Outdoor Wood Burning Steel BBQ Grill'
           price={49.99}
           rating={5}
           image='https://images-na.ssl-images-amazon.com/images/I/61J%2B463izhL._AC_SL1200_.jpg'
