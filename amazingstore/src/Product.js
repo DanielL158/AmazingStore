@@ -1,11 +1,9 @@
 import React from 'react';
 import './Product.css';
-import{ useStateValue } from './StateProvider';
+import { useStateValue } from './StateProvider';
 
 export default function Product({ id, title, image, price, rating }) {
   const [ { basket }, dispatch] = useStateValue();
-
-  console.log(basket)
 
   const addToBasket = () => {
     dispatch({
