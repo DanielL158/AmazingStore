@@ -12,11 +12,11 @@ export default function Checkout () {
         <div>
           <h2 className='checkout_title'>Your Shopping Basket</h2>
         </div>
+      </div>
 
         <div className='checkout_right'>
           <Subtotal />
         </div>
-      </div>
     </div>
   )
 }

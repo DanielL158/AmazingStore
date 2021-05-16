@@ -68,7 +68,10 @@
   align-items: center;
   color: white;
   margin-right: 10px;
-  margin-left: 10px;
+}
+
+.header_optionGitHub:hover {
+  cursor: pointer;
 }
 
 .header_basketCount {
