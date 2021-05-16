@@ -3,7 +3,7 @@ import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import GitHubIcon from '@material-ui/icons/GitHub';
-
+import { Link } from 'react-router-dom';
 
 export default function Header() {
 
@@ -13,9 +13,11 @@ export default function Header() {
 
   return (
     <div className='header'>
-      <img
-      className='header_logo'
-      src='http://pngimg.com/uploads/amazon/amazon_PNG11.png' alt='' />
+      <Link to='/'>
+        <img
+        className='header_logo'
+        src='http://pngimg.com/uploads/amazon/amazon_PNG11.png' alt='' />
+      </Link>
 
       <div className='header_search'>
         <input
@@ -23,6 +25,7 @@ export default function Header() {
         type='text' />
         <SearchIcon
         className='header_searchIcon' />
+      </div>
 
         <div className='header_nav'>
           <div className='header_option'>
@@ -49,13 +52,14 @@ export default function Header() {
           <div className='header_optionGitHub'>
           <GitHubIcon onClick={handleClick}/>
           </div>
-          <div className='header_optionBasket'>
-            <ShoppingBasketIcon />
-            <span className='header_optionLineTwo header_basketCount'>0</span>
-          </div>
 
+          <Link to='/checkout'>
+            <div className='header_optionBasket'>
+              <ShoppingBasketIcon />
+              <span className='header_optionLineTwo header_basketCount'>0</span>
+            </div>
+          </Link>
         </div>
-      </div>
     </div>
   )
 }
