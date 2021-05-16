@@ -13,6 +13,7 @@ export default function Home () {
         />
         <div className="home_row">
           <Product
+          id='12345678'
           title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
           price={29.99}
           rating={5}
