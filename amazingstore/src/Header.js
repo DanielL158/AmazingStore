@@ -5,9 +5,16 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { Link } from 'react-router-dom';
 import { useStateValue } from './StateProvider';
+import { auth } from './firebase';
 
 export default function Header() {
-  const [ { basket }, dispatch] = useStateValue();
+  const [ { basket, user }, dispatch] = useStateValue();
+
+  const handleAuthentication = () => {
+    if (user) {
+      auth.signOut();
+    }
+  }
 
   const handleClick = () => {
     window.location.href="https://github.com/DanielL158/AmazingStore/tree/master/amazingstore"
@@ -30,12 +37,15 @@ export default function Header() {
       </div>
 
         <div className='header_nav'>
-          <Link to='/login'>
-            <div className='header_option'>
+          <Link to={!user && '/login'}>
+            <div
+            onClick={handleAuthentication}
+            className='header_option'>
               <span
               className='header_optionLineOne'>Hello Guest</span>
               <span
-              className='header_optionLineTwo'>Sign In</span>
+              className='header_optionLineTwo'>{user ? 'Sign Out' : 'Sign In'}
+              </span>
             </div>
           </Link>
 
