@@ -14,13 +14,13 @@ export default function Home () {
         <div className="home_row">
           <Product
           id='12345678'
-          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
-          price={29.99}
+          title="AstroAI Mini Fridge 4 Liter/6 Can AC/DC Portable Thermoelectric Cooler and Warmer"
+          price={49.99}
           rating={5}
-          image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
+          image='https://images-na.ssl-images-amazon.com/images/I/61SX1DEzK4L.__AC_SX300_SY300_QL70_FMwebp_.jpg'
           />
           <Product
-          id='49538094'
+          id='123456789'
           title='Kenwood Mix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl'
           price={239.99}
           rating={4}
@@ -30,24 +30,36 @@ export default function Home () {
 
         <div className="home_row">
           <Product
-          id='49538094'
+          id='12345619'
           title='All-new Echo Buds (2nd Gen)'
           price={99.99}
           rating={5}
           image='https://images-na.ssl-images-amazon.com/images/I/61zfyWSgVBL._AC_SL1000_.jpg'
           />
           <Product
-          id='49538094'
+          id='123456123'
           title='KINGSO Fire Pit, 22 Fire Pits Outdoor Wood Burning Steel BBQ Grill'
           price={49.99}
           rating={5}
           image='https://images-na.ssl-images-amazon.com/images/I/61J%2B463izhL._AC_SL1200_.jpg'
           />
-          <Product />
+          <Product
+          id='123456353'
+          title='Island Retreat Island Umbrella Hammock Pillow & Pad Set, Blue'
+          price={49.99}
+          rating={4}
+          image='https://images-na.ssl-images-amazon.com/images/I/81gzJAuZ27L._AC_SL1500_.jpg'
+          />
         </div>
 
         <div className="home_row">
-          <Product />
+          <Product
+          id='123256123'
+          title='SAMSUNG 43-inch Class Crystal UHD TU-8000 Series - 4K UHD HDR Smart TV with Alexa Built-in'
+          price={377.99}
+          rating={5}
+          image='https://images-na.ssl-images-amazon.com/images/I/71RiQZ0J2SL._AC_SL1000_.jpg'
+          />
         </div>
       </div>
     </div>
