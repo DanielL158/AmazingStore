@@ -14,7 +14,7 @@ export default function Checkout () {
         />
 
         <div>
-          <h3>Hello, {user?.email.split('@')[0]}</h3>
+          <h3 className='checkout_greeting'>Hello, {!user ? `Guest` : user?.email.split('@')[0]}</h3>
           <h2 className='checkout_title'>Your Shopping Basket</h2>
 
           {basket.map((item, key)=> (

@@ -42,7 +42,7 @@ export default function Header() {
             onClick={handleAuthentication}
             className='header_option'>
               <span
-              className='header_optionLineOne'>Hello, {user?.email.split('@')[0]}</span>
+              className='header_optionLineOne'>Hello, {!user ? `Guest` : user?.email.split('@')[0]}</span>
               <span
               className='header_optionLineTwo'>{user ? 'Sign Out' : 'Sign In'}
               </span>
